@@ -6,6 +6,8 @@
 #define LEDB 9
 #define SLAVE_ADDRESS 0x04
 
+int change = 6;
+
 struct LEDcolors {
   float red;
   float green;
